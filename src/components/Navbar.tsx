@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useGame } from '../context/GameContext';
-import { Globe, Home, PlusCircle, BarChart3, LogOut, Sparkles, Menu, X } from 'lucide-react';
+import { Globe, Home, PlusCircle, BarChart3, LogOut, Menu, X } from 'lucide-react';
 
 const Navbar: React.FC = () => {
   const { lang, setLang, currentScreen, setCurrentScreen } = useGame();
